@@ -29,7 +29,7 @@ class _HomeState extends State<Home> {
       _people += delta;
 
       if (_people < 0) {
-        _infoText = 'Mundo invertido?!';
+        _infoText = 'Como assim?!';
       } else if (_people <= 10) {
         _infoText = 'Pode entrar!';
       } else {
